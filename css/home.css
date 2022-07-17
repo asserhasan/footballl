@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+/* page header */
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #f0f0f0;
+  width: 100%;
+  align-items: center;
+  padding: 10px 40px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
+
+}
+
+
+
+.logo {
+  width: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6c3af4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1em;
+  padding-left: 30px;
+}
+
+nav a:hover {
+  color: #260c62;
+}
+
+/* page header */
+/* body */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  gap: 15px;
+}
+
+/* body  */
+/* section s */
+.card {
+  border-radius: 10px;
+  width: 300px;
+  height: 450px;
+  margin: 1%;
+  padding: 1%;
+  background-color: #fff;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 20%);
+  transition: 0.7s ease;
+  /* border-color: #00000045;
+  border-style: solid; */
+
+}
+
+.card:hover {
+  transform: scale(1.1);
+  border-color: #00000045;
+  border-style: solid;
+
+}
+
+.card a img {
+  width: 100%;
+  height: 100%;
+}
+
+/* section s */
+/* done  */
